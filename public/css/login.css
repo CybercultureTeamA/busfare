@@ -1,0 +1,138 @@
+html,body {
+  color: #2C2C2E;
+  font-size: .9rem; 
+  font-family: "Cabin",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff; }
+
+::selection {
+  background: #000;
+  color: #fff; }
+
+a {
+  color:#2C2C2E;
+}
+
+  a:hover {
+    text-decoration: none; 
+    color:#46ddb0;
+  }
+.site-nav-section{
+    width:100%;
+    height:80px;
+    position:relative;
+    top:0;
+    border-bottom:1px solid #F4F4F4;
+  }
+  .site-logo{
+    padding-left:40px;
+    float:left;
+  }
+  @media (min-width:200px) and (max-width:700px){
+    .site-nav-section{
+    height:67px;
+  }
+   .site-logo{
+    padding-left:2px !important;
+  }
+  .site-logo a{
+   font-size:33px !important;
+  }
+   .sub-logo{
+    margin-left:50px !important;
+  }
+   }
+  .site-logo{
+    margin-left:30px;
+    margin-top:10px;
+    width:200px;
+  }
+  .site-logo a{
+   font-size:40px;
+   font-weight:600;
+   color:#46ddb0;
+   font-family: Lucida Calligraphy;
+  }
+  .sub-logo{
+    margin-top:-20px;
+    margin-left:60px;
+  }
+  .sub-logo p{
+    font-size:16px;
+    font-weight:700;
+    color:#000;
+  }
+  .sub-logo span{
+    color:#0080FF;
+  }
+
+  .site-form{
+  position:absolute;
+  transform: translate(-50%,0%);
+  left:50%;
+}
+.form{
+  padding-top:50px;
+}
+@media (min-width:200px) and (max-width:700px){
+      .site-form{
+      width:85% !important;
+    }
+    .site-form input{
+      width:100% !important;
+    }
+     .p-form .fa,
+  .cp-form .fa{
+    margin-left:85% !important;
+  }
+    }
+ .site-form p{
+      padding-top:20px;
+      color:#000;
+      margin-left:5px;
+    }
+    .site-form input{
+    outline: none;
+    background-color:#F0F0F0;
+    border:none;
+    border-radius:10px;
+    width:300px;
+    height:40px;
+    margin-top:-10px;
+    }
+    .sbt-form{
+      padding-top:30px;
+    }
+    .sbt-form input{
+      background-color:#46ddb0;
+      font-size:16px;
+      color:#fff;
+      text-transform: uppercase;
+    }
+    .txt-form{
+      margin-bottom:40px;
+      margin-top:20px;
+    }
+    .txt-form p{
+      margin-top:-15px;
+    }
+    .txt-form a{
+      color:#0080FF;
+    }
+    ::placeholder{
+      padding-left:20px;
+    }
+    .p-form .fa,
+  .cp-form .fa{
+    position: absolute;
+    margin-left:260px;
+    font-size:17px;
+    color:#999;
+}
+  .fa.active{
+    color:dodgerblue;
+  }
